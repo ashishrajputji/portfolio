@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: block;
+    width: 100vw;
+    height: 100px;
+    padding: 0   5rem;
+}
+
+.main-logo{
+    display: inline-block;
+    position: relative;
+    padding: 0.3rem 1rem;
+    top: 1rem;
+    left: 6vw;
+    border-left: 2px solid rgb(208, 63, 63);
+    border-bottom: 1px solid rgb(208, 63, 63);
+    border-radius: 2rem;
+    box-shadow: inset 5px 5px  rgb(240, 57, 57) ;
+    transition-duration: 1s;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in;
+    animation: onhover;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes onhover {
+   0% { transform: rotateX(0deg);}
+    50% { transform: rotateX(24deg);}
+    100% { transform: rotateX(0deg);}
+}
+.nav-name{
+    color: white; 
+    margin: 0;
+    padding-left: -1px;
+}
+.nav-profession{
+    margin: 0;
+    color: white;
+}
+
+.navigation-right{
+    display: inline-block;
+    position: relative;
+    left: 50vw;
+    top: -0.25rem;
+    color: white;
+}
+.nav-icons{
+    display: inline-block;
+    margin: auto  2rem;
+    border-left: 4px solid rgb(208, 63, 63);
+    border-bottom: 4px solid rgb(208, 63, 63);
+    border-radius: 2rem;
+    padding-bottom: 0.5rem ;
+    padding-left: 0.5rem ;
+}
+.nav-a{
+    color: white;
+}

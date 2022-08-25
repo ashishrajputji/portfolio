@@ -1,0 +1,65 @@
+#main{
+    background-image: url(../images/background.jpg);
+    height: 56rem;
+    width: 100vw;
+    overflow: hidden;
+}
+.action{
+    color: white;
+    position: relative;
+    left: 10vw;
+    overflow: hidden;
+    padding-top: 6rem;
+}
+
+.action-heading-h1{
+    font-size: 4rem;
+    font-family: sans-serif, Arial, Helvetica, -apple-systen,system-ui;
+    padding: 0.2rem 10px;
+    margin-bottom: 0;
+    
+}
+.action-heading-h2{
+    font-size: 3.5rem;
+    font-family: sans-serif, Arial, Helvetica, -apple-systen,system-ui;
+    padding: 0.2rem 10px;
+    margin-top: 0.2rem;
+}
+.action-paragraph{
+    font-size: 1.2rem;
+    font-family: sans-serif, Arial, Helvetica, -apple-systen,system-ui;
+    line-break: strict;
+    margin-right: 1px;
+    margin: 2px;
+}
+.btn-hire{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.75rem 2rem;
+    font-size: 1.3rem;
+    background-color:rgb(208, 63, 63) ;
+    color: white;
+    border: 0px;
+    border-radius: 0.2rem;
+    transition-duration: 1s;
+}
+.btn-hire:hover{
+    color:rgb(208, 63, 63) ;
+    background-color: rgba(22, 21, 21, 0.415);
+}
+.btn-projects{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    padding: 0.75rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgba(22, 21, 21, 0.415);
+    border: 0px;
+    border-radius: 0.2rem;
+    transition-duration: 1s;
+}
+.btn-projects:hover{
+    background-color:rgb(208, 63, 63) ;
+    color: white;
+}
