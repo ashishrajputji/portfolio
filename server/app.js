@@ -14,7 +14,9 @@ app.get('/', (req,res)=>{
     res.render("index");
 })
 
-
+app.get('/web', (req,res)=>{
+    res.render("udemy");
+})
 app.listen(3000, (err)=>{
     if(!err){
         console.log("Server is running");

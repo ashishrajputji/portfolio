@@ -3,7 +3,7 @@
     height: 400px;
     margin-right: 0;
     margin-bottom: 0;
-    width: 100vw;
+    max-width: 100vw;
     color: white;
     text-align: center;
 }
@@ -14,13 +14,22 @@
     font-family:  sans-serif,Arial, Helvetica   ;
     margin-bottom: 0;
 }
-.footer-copyright{
+.foot-link{
     color: rgba(255, 255, 255, 0.868);
     text-align: center;
     position: relative;
-    top: 10rem;
+    top: 12rem;
     font-size: 1.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    text-decoration: none;
     margin-bottom: 0;
+    margin: 0 2rem;
+}
+@media (max-width: 1000px) and (min-width: 250px) {
+    .foot-link{
+        position: relative;
+        top: 8rem;
+        text-align: center;
+        display: inline;
+    }
 }

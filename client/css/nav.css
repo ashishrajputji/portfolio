@@ -4,9 +4,17 @@ body{
 }
 .navigation{
     display: block;
-    width: 100vw;
+    max-width: 100vw;
     height: 100px;
     padding: 0   5rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(157deg, rgba(0,0,0,0.9923319669664741) 0%, rgba(89,94,90,1) 100%);
+    box-shadow: 5px 5px 2rem rgba(0, 0, 0, 0.868);
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .main-logo{
@@ -47,9 +55,17 @@ body{
 .navigation-right{
     display: inline-block;
     position: relative;
-    left: 50vw;
-    top: -0.25rem;
+    left: 48vw;
+    top: -1.7rem;
+    z-index: 2;
     color: white;
+}
+.nav-hamburger{
+    display: none;
+    cursor: pointer;
+    position:absolute;
+    top: 0.7rem;
+    right: 1vw;
 }
 .nav-icons{
     display: inline-block;
@@ -63,3 +79,39 @@ body{
 .nav-a{
     color: white;
 }
+
+/* For screen size less than 1400px and greater than 1000px */
+@media (max-width: 1399.9px) and (min-width:200px) {
+    
+    .navigation-active{
+        height: 300px;
+        background: rgb(0,0,0);
+        background: linear-gradient(157deg, rgba(0,0,0,0.9923319669664741) 0%, rgba(89,94,90,1) 100%);
+        box-shadow: 5px 5px 2rem rgba(0, 0, 0, 0.868);
+        position: sticky;
+        position: -webkit-sticky;
+        top:0;
+        z-index: 1;
+    }
+    .navigation-right{
+        display: block;
+       position: relative;
+       left: 0vw;
+       top: 2rem;
+        
+    }
+    .nav-hamburger{
+        display: inline-block;
+        background: transparent;
+    }
+    .nav-icons{
+        display: block;
+        text-align: center;
+        border-left: 0px;
+    }
+    .nav-a{
+        text-decoration: none;
+    }
+}
+
+
